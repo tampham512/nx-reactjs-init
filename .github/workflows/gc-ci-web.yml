@@ -1,0 +1,25 @@
+name: Build Web & Deploy
+on:
+  push:
+    branches: [prod]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Deploy web to google Cloud
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Connect with SSH and Deploy
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          script: |
+            git config --global --add safe.directory /home/pttam512/org
+            cd /home/pttam512/org
+            git checkout prod
+            git pull
+            docker compose up -d --build manage-task

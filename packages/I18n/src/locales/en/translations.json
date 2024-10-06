@@ -1,0 +1,16 @@
+{
+  "document.title": "Task Management",
+  "vi-VN": "Vietnamese",
+  "en-EN": "English",
+  "manage.title": "Task Management",
+  "create": "Create Task",
+  "title": "Title",
+  "completed": "Completed",
+  "incompleted": "Incompleted",
+  "all": "All",
+
+  "button.save": "Save",
+  "add.success": "Add Success!",
+  "required.field": "Field is required.",
+  "language": "Language"
+}

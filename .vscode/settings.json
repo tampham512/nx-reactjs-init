@@ -1,0 +1,4 @@
+{
+  "eslint.validate": ["json"],
+  "eslint.workingDirectories": [{ "mode": "auto" }]
+}

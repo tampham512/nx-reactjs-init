@@ -1,0 +1,47 @@
+@charset "utf-8";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 62.5% !important; /* Now 10px = 1rem! */
+}
+
+body {
+  font-size: 16px; /* px fallback */
+  font-size: 1.6rem; /* default font-size for document */
+  line-height: 1.5; /* a nice line-height */
+  margin: 0;
+  /* font-family: 'Public Sans', sans-serif; */
+  font-family: 'Quicksand', sans-serif;
+}
+* {
+  font-family: 'Quicksand', sans-serif;
+  /* color: #5c5b68; */
+}
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+th,
+td {
+  color: #5c5b68;
+}
+.ant-message-success .anticon * {
+  color: #52c41a;
+}
+.ant-message-error .anticon * {
+  color: red;
+}
+.ant-message {
+  z-index: 9999999999999999999;
+}
+
+#root {
+  height: max-content;
+}

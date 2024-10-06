@@ -1,0 +1,16 @@
+{
+  "document.title": "Quản Lý Công Việc",
+  "vi-VN": "Tiếng Việt",
+  "en-EN": "Tiếng Anh",
+
+  "manage.title": "Quản Lý Công Việc",
+  "create": "Tạo Công Việc",
+  "title": "Tiêu Đề",
+  "completed": "Hoàn Thành",
+  "button.save": "Lưu",
+  "add.success": "Thêm Thành Công!",
+  "required.field": "Vui lòng nhập trường này.",
+  "incompleted": "Chưa Hoàn Thành",
+  "all": "Tất Cả",
+  "language": "Ngôn Ngữ"
+}
