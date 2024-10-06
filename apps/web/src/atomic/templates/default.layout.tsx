@@ -3,7 +3,6 @@ import { css } from '@emotion/css';
 import { Outlet } from 'react-router-dom';
 
 export function DefaultLayout() {
-  console.log('OK');
   return (
     <div
       className={css`
