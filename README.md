@@ -18,4 +18,6 @@ FEATURES
 7. Use commitlint (conventional)
 8. Use RTK Query
 9. I18n (multiple languages)
+10. Validation form with React Hook Form.
+    
 
